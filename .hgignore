@@ -1,0 +1,8 @@
+syntax: glob
+
+build/*
+lib/*
+.gradle/*
+.gradle*
+.idea/*
+*.iml
