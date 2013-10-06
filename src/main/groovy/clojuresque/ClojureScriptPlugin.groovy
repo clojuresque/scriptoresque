@@ -28,7 +28,7 @@ import org.gradle.api.Project
 
 class ClojureScriptPlugin implements Plugin<Project> {
     void apply(Project project) {
-        project.apply plugin: "scriptoresque-base"
+        project.apply plugin: "clojurescript-base"
         project.apply plugin: "clojure-nrepl"
         project.apply plugin: "clojars"
     }
